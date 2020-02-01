@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+.sidebar{
+    z-index: 5;
+    width: 70%;
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: grey;
+}
+.sidebar ul {
+    margin-top: 50px;
+}
+.sidebar ul li {
+    list-style: none;
+    text-align: center;
+}
+.sidebar ul input {
+    height: 35px;
+    width: 80%;
+    border-radius: 5px;
+    border: 0;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    outline: none;
+}
+.sidebar ul .search {
+    position: relative;
+}
+.search .icon {
+    position: absolute;
+    right: 50px;
+    color: black;
+    top: 8px;
+    font-size: 20px;
+}
+.sidebar ul li a{
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}

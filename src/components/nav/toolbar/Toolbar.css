@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+}
+header {
+    background-color: rgb(43, 37, 37);
+    height: 56px;
+    width: 100%;
+    color: white;
+}
+.tb-logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+.tb-logo {
+    margin-left: 10px;
+}
+.nav-bar {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.tb-prop a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+.tb-prop ul {
+    list-style: none;
+    display: flex;
+    margin: 0 15px 0 0;
+    padding: 0;
+}
+.tb-prop a:hover,
+.tb-prop a:active, 
+.tb-logo a:hover
+ {
+    color: grey;
+}
+.spacer{
+    flex: 1;
+}
+.tb-prop ul li{
+    margin: 0 10px;
+}
+.tb-prop ul .input {
+    width: 202px;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    height: 23px;
+}
+.btn-toggle {
+    display: none;
+}
+@media (max-width : 768px) {
+    .tb-prop .gone {
+        display: none;
+    }
+    .btn-toggle {
+        display: block;
+        z-index: 6;
+        width: 50px;
+        height:30px ;
+        font-size: 25px;
+        background-color: grey;
+        border: 0;
+        border-radius: 5px;
+        margin-right: 5px;
+        color: white;
+        position: fixed;
+        top: 10px;
+        right: 0;
+    }
+}
+    
